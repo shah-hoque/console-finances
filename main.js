@@ -1,5 +1,12 @@
+// INSTRUCTIONS IF YOU WANT TO USE ANOTHER DATA SET
+// 1) Add 'export' at the beginning of the variable that includes the array in question. This file needs to be located within this same directory
+// 2) Update the 2 lines below by changing the import arg to the variable of the array in question and by correcting the file path if needed
+// 3) Change the assignment of 'inputData' to the variable of the array in question
+
 import {finances} from "./financial_data.js"
 var inputData = finances
+
+///////////////////////////////////////////////////////////////
 
 // The total number of months included in the dataset
 var netMonthsInData = 0
