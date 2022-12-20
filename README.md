@@ -26,6 +26,7 @@ The application comes with an example data set within a 2d array data structure,
 The application can only be used with a data set organised within a 2d array data structure with the first inner element including a date and the second inner element including an integer.
 
 **Image example of report when printed**
+
 ![image example of report when printed](/assets/Image%20example.png)
 
 ## Credits
