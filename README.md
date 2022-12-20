@@ -16,14 +16,17 @@ The following list is the information this application intends to extract:
 - The greatest decrease in losses (date and amount) over the entire period
 
 ## Installation
-The application comes with a data set within a array data structure, however if this array is to be updated with a new set of data, then the user should conduct the instructions below:
-- Add 'export' at the beginning of the variable that includes the array in question. This file needs to be located within this same directory
-- Update the first 2 lines in "main.js" by changing the import argument to the variable of the array in question and by correcting the file path if needed
-- Within "main.js" change the assignment of 'inputData' to the variable of the array in question
+The application comes with an example data set within a 2d array data structure, however if this example array is to be updated with a new set of data, then the user should conduct the instructions below:
+- Add 'export' at the beginning of the variable to the new array in question. This new file needs to be located within this same directory
+- Update the first 2 lines in "main.js" by changing the import argument to the variable of the new array in question and by correcting the file path if needed
+- Within "main.js" change the assignment of 'inputData' to the variable of the new array in question
 
 
 ## Usage
 The application can only be used with a data set organised within a 2d array data structure with the first inner element including a date and the second inner element including an integer.
+
+**Image example of report when printed**
+![image example of report when printed](/assets/Image%20example.png)
 
 ## Credits
 Author: Shohidul Shah Hoque
