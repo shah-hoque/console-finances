@@ -66,7 +66,3 @@ console.log("Greatest Decrease in Profits: " + listOfMonths[minIndex] + " " + "(
 
 
 
-
-
-
-
