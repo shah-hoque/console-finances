@@ -33,7 +33,6 @@ for (var i = 0; i < inputData.length-1; i++) {
     avgMonthlyChange = avgMonthlyChange + (inputData[i+1][1] - inputData[i][1])
 }
 avgMonthlyChange = avgMonthlyChange / netMonthsInData
-
 avgMonthlyChange = avgMonthlyChange.toFixed(2)
 
 ///////////////////////////////////////////////////////////////
@@ -55,7 +54,6 @@ var TopDecreaseInProfit = Math.min(...avgMonthlyChangeAsArray);
 var maxIndex = avgMonthlyChangeAsArray.indexOf(TopIncreaseInProfit)
 var minIndex = avgMonthlyChangeAsArray.indexOf(TopDecreaseInProfit)
 
-
 /////////////////////////////////////////////////////////////
 
 // Print out report
@@ -66,6 +64,4 @@ console.log("Total: " + "$" + netProfitOrLoss)
 console.log("Average Change: " + "$" + avgMonthlyChange)
 console.log("Greatest Increase in Profits: " + listOfMonths[maxIndex] + " " + "($" + TopIncreaseInProfit + ")" )
 console.log("Greatest Decrease in Profits: " + listOfMonths[minIndex] + " " + "($" + TopDecreaseInProfit + ")" )
-
-
 
