@@ -34,6 +34,8 @@ for (var i = 0; i < inputData.length-1; i++) {
 }
 avgMonthlyChange = avgMonthlyChange / netMonthsInData
 
+avgMonthlyChange = avgMonthlyChange.toFixed(2)
+
 ///////////////////////////////////////////////////////////////
 
 // Greatest increase in profits & greatest decrease in profits
@@ -61,6 +63,7 @@ console.log("Financial Analysis")
 console.log("----------------------------")
 console.log("Total Months: " + netMonthsInData)
 console.log("Total: " + "$" + netProfitOrLoss)
+console.log("Average Change: " + "$" + avgMonthlyChange)
 console.log("Greatest Increase in Profits: " + listOfMonths[maxIndex] + " " + "($" + TopIncreaseInProfit + ")" )
 console.log("Greatest Decrease in Profits: " + listOfMonths[minIndex] + " " + "($" + TopDecreaseInProfit + ")" )
 
