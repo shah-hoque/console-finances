@@ -1,10 +1,11 @@
 # console-finances
 
-Last updated on: 20th Dec 2022. Last updated by: Shohidul Shah Hoque
+Last updated on: 2nd Jan 2023. Last updated by: Shohidul Shah Hoque
 __________
 
 ## Description
-This application is not deployed and works via the terminal.
+This application is deployed where the results can be found via the Chrome Inspect tool under "Console"
+- https://shah-hoque.github.io/console-finances
 
 It reports key data based on information located in an 2d array data structure.
 
@@ -25,7 +26,7 @@ The application comes with an example data set within a 2d array data structure,
 ## Usage
 The application can only be used with a data set organised within a 2d array data structure with the first inner element including a date and the second inner element including an integer.
 
-**Image example of report when printed**
+**An example image of the report when printed**
 
 ![image example of report when printed](/assets/Image%20example.png)
 
